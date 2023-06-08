@@ -58,7 +58,7 @@ Assuming that you have cloned the repo under /Users/<username>/compose-ecs/ and 
  
  ```
  /Users/username/compose-ecs/bin
- ajeetsraina@Q537JQXLVR bin % export PATH="/Users/username/compose-ecs/bin:$PATH"
+bin % export PATH="/Users/username/compose-ecs/bin:$PATH"
  ```
  
  Now you can run compose-ecs from anywhere.
