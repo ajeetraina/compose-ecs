@@ -52,6 +52,17 @@ Flags:
 Use "compose-ecs [command] --help" for more information about a command.
 ```
 
+## Adding it to PATH
+
+Assuming that you have cloned the repo under /Users/<username>/compose-ecs/ and CLI is available under compose-ecs/bin, you can run the below command:
+ 
+ ```
+ /Users/username/compose-ecs/bin
+ ajeetsraina@Q537JQXLVR bin % export PATH="/Users/username/compose-ecs/bin:$PATH"
+ ```
+ 
+ Now you can run compose-ecs from anywhere.
+
 
 # Usage
 
