@@ -3,6 +3,56 @@
 
 This CLI tool makes it easy to run Docker Compose applications on [ECS](https://aws.amazon.com/ecs)
 
+## Getting Started
+
+## Installation
+
+## Clone the repository
+
+```
+ git clone https://github.com/ajeetraina/compose-ecs
+```
+
+## Building the CLI
+
+```
+cd compose-ecs
+make
+```
+
+This will output a CLI for your host machine in ./bin.
+
+```
+cd ./bin 
+./compose-ecs
+```
+
+
+
+```
+Usage:
+  compose-ecs [flags]
+  compose-ecs [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  convert     Converts the compose file to platform's canonical format
+  down        Stop and remove containers, networks
+  help        Help about any command
+  logs        View output from containers
+  ps          List containers
+  secret      Manages secrets
+  up          Create and start containers
+  version     Show the Docker version information
+  volume      Manages volumes
+
+Flags:
+  -h, --help   help for compose-ecs
+
+Use "compose-ecs [command] --help" for more information about a command.
+```
+
+
 # Usage
 
 Starting with a standard [Compose file](https://compose-spec.io/) - with some restrictions:
